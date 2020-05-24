@@ -16,9 +16,9 @@ CREATE TABLE `my_users_jpa2` (
   PRIMARY KEY (`id`)
 )
 
-id	active	password	roles	     user_name
-1	  TRUE	  pass	    ROLE_USER	  user
-2	  TRUE	  pass	    ROLE_ADMIN	admin
+columns(id	active password	roles	user_name) Values (1	TRUE	pass	ROLE_USER	user) and (2	TRUE	pass	ROLE_ADMIN	admin)
+
+
 
 
 
